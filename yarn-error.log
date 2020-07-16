@@ -1,0 +1,33 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add express ejs express-ejs-layouts
+
+PATH: 
+  C:\Users\Swarnava Basu\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Swarnava Basu\bin;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\Win64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Swarnava Basu\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\Swarnava Basu\AppData\Local\Programs\Python\Python38;C:\Users\Swarnava Basu\AppData\Local\Microsoft\WindowsApps;C:\Users\Swarnava Basu\AppData\Local\Programs\Microsoft VS Code\bin;C:\flutter\bin;C:\Users\Swarnava Basu\AppData\Roaming\npm;C:\xampp\php;C:\Users\Swarnava Basu\AppData\Roaming\Composer\vendor\bin;C:\Users\Swarnava Basu\AppData\Local\ComposerSetup\bin;C:\Users\Swarnava Basu\AppData\Local\Yarn\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ENETUNREACH 104.16.19.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16)
+
+npm manifest: 
+  {
+    "name": "authentic-pizza",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Swarnava Basu",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
