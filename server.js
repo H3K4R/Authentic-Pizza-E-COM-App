@@ -22,9 +22,7 @@ connection.once('open', () => {
     console.log('Connection faild...');
 });
 
-//Passport config 
-app.use(passport.initialize())
-app.use(passport.session())
+
 
 //Session  store
 let mongoStore = new MongoDbStore({
@@ -41,6 +39,12 @@ app.use(session({
     cookie: {maxAge: 1000 * 60 * 60 * 24} //24 hours
 }))
 
+//Passport config 
+const passportInit = require('./app/config/passport')
+passportInit(passport)
+app.use(passport.initialize())
+app.use(passport.session())
+
 app.use(flash())
 
 
@@ -53,6 +57,7 @@ app.use(express.json())
 //Global middileware
 app.use((req, res, next) => {
     res.locals.session = req.session
+    res.locals.user = req.user
     next()
 })
 
